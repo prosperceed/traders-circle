@@ -120,13 +120,8 @@ const Uniqueness = () => {
 						<div className="grid sm:grid-cols-2 gap-8 md:hidden">
 							{uniquenessData.map((item, index) => (
 								<div key={index} className="flex items-center gap-6">
-									<div className="bg-light_grey/45 p-6 rounded-full">
-										<Image
-											src={item.icon}
-											alt={item.title}
-											width={44}
-											height={44}
-										/>
+									<div className="bg-primary/35 p-6 rounded-full">
+										<div className="">{item.icon}</div>
 									</div>
 									<div className="text-start">
 										<h4 className="text-28 text-muted mb-2">{item.title}</h4>

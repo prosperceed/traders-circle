@@ -7,11 +7,11 @@ const Logo: React.FC = () => {
 			<Image
 				src="/traders_circle_logo.svg"
 				alt="logo"
-				width={116}
-				height={116}
+				width={80}
+				height={80}
 				// style={{ width: "auto", height: "auto" }}
 				quality={100}
-				className=""
+				className="w-18 h-15"
 			/>
 		</Link>
 	);

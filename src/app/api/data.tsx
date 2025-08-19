@@ -7,6 +7,13 @@ import {
 } from "react-icons/bi";
 
 import {
+	BsCreditCard2Back,
+	BsFillLightningFill,
+	BsJournals,
+	BsSliders,
+} from "react-icons/bs";
+
+import {
 	BiLogoWhatsapp,
 	BiLogoInstagram,
 	BiLogoTiktok,
@@ -157,31 +164,31 @@ export const contactData: {
 ];
 
 export const uniquenessData: {
-	icon: string;
+	icon: ReactNode;
 	title: string;
 	text: string;
 	position: string;
 }[] = [
 	{
-		icon: "/images/timeline/icon-planning.svg",
+		icon: <BsJournals className="w-6 h-6 text-white" />,
 		title: "Journaling",
 		text: "A good trade starts from how well you plan it",
 		position: "md:top-0 md:left-0",
 	},
 	{
-		icon: "/images/timeline/icon-refinement.svg",
+		icon: <BsSliders className="w-6 h-6 text-white" />,
 		title: "Strategy",
 		text: "Strategy places you ahead of the game, and We teach just the best of it",
 		position: "md:top-0 md:right-0",
 	},
 	{
-		icon: "/images/timeline/icon-prototype.svg",
+		icon: <BsCreditCard2Back className="w-6 h-6 text-white" />,
 		title: "Risk management",
 		text: "Learn how to manage your risk and protect your capital",
 		position: "md:bottom-0 md:left-0",
 	},
 	{
-		icon: "/images/timeline/icon-support.svg",
+		icon: <BsFillLightningFill className="w-6 h-6 text-white" />,
 		title: "Sharp emotions",
 		text: "Boost your confidence and learn how to control your emotions",
 		position: "md:bottom-0 md:right-0",

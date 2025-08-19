@@ -23,7 +23,7 @@ const Testimony = () => {
 	return (
 		<section className="py-20" id="testimony">
 			<div className="container px-4 w-[97%] mx-auto">
-				<div className="grid lg:grid-cols-2 gap-10 items-center">
+				<div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
 					<div>
 						<h2 className="text-white sm:text-40 text-30 font-medium mb-5">
 							What Our Students have to say

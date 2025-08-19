@@ -16,8 +16,8 @@ const Contact = () => {
 						</h2>
 					</div>
 					<div className="relative w-[80%] lg:w-[40rem] flex flex-col space-y-8 items-center h-fit mx-auto mt-16 border border-border/20  py-6 gap-8 px-10 rounded-3xl bg-white/2 shadow-md drop-shadow-2xl backdrop-blur-xl">
-						<div className="px-2 flex justify-start w-[80%] lg:w-[26rem]">
-							<p className="text- text-sm md:text-[19px] text-left ">
+						<div className="px-2 flex justify-start w-[96%] lg:w-[26rem]">
+							<p className="text-muted text-sm md:text-[19px] text-left ">
 								Reach us on our social media platforms to stay updated on our
 								progress and get help on your questions
 							</p>
@@ -28,16 +28,22 @@ const Contact = () => {
 									key={index}
 									className="text-center flex items-center justify-end flex-col"
 								>
-									<div className="bg-white/90 cursor-pointer backdrop-blur-xs p-2 rounded-full w-fit">
-										{/* <Image
+									<Link
+										href={item.link}
+										target="_blank"
+										className="cursor-pointer"
+									>
+										<div className="bg-white/90  backdrop-blur-xs p-2 rounded-full w-fit">
+											{/* <Image
 										src={item.icon}
 										alt={item.title}
 										width={44}
 										height={44}
 									/> */}
 
-										<Link href={item.link}>{item.icon}</Link>
-									</div>
+											{item.icon}
+										</div>
+									</Link>
 									{/* <h4 className={`text-white text-[15px] mb-2 ${item.space}`}>
 										{item.title}
 									</h4>
