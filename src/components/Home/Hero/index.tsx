@@ -105,7 +105,7 @@ const Hero = () => {
 					</motion.div>
 				</div>
 				{/* <BrandLogo /> */}
-				<CardSlider />
+				{/* <CardSlider /> */}
 			</div>
 
 			{/* Modals for Buy and Sell */}
