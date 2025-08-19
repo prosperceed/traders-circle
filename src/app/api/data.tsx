@@ -1,4 +1,5 @@
 import { title } from "process";
+import React, { ReactNode } from "react";
 import {
 	BiLineChartDown,
 	BiAnalyse,
@@ -97,7 +98,7 @@ export const pricedeta: {
 	},
 ];
 
-export const serviceData: { image: string; title: string }[] = [
+export const serviceData: { image: ReactNode; title: string }[] = [
 	{
 		image: <BiAnalyse className="w-10 h-10 text-cyan-400" />,
 		title: "Join our interactive community",
@@ -124,7 +125,7 @@ export const upgradeData: { title: string }[] = [
 ];
 
 export const contactData: {
-	icon: string;
+	icon: ReactNode;
 	title: string;
 	link: string;
 	space: string;
