@@ -12,7 +12,7 @@ const Testimony = () => {
 		dots: true,
 		arrows: false,
 		infinite: true,
-		speed: 500,
+		speed: 800,
 		slidesToShow: 1, // only 1 slide at a time
 		slidesToScroll: 1,
 		autoplay: true,
@@ -22,7 +22,7 @@ const Testimony = () => {
 
 	return (
 		<section className="py-20" id="testimony">
-			<div className="container px-4 w-[97%] mx-auto">
+			<div className="container px-4 w-full lg:w-[97%] mx-auto">
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
 					<div>
 						<h2 className="text-white sm:text-40 text-30 font-medium mb-5">

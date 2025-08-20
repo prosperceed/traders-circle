@@ -33,7 +33,7 @@ const Contact = () => {
 										target="_blank"
 										className="cursor-pointer"
 									>
-										<div className="bg-white/90  backdrop-blur-xs p-2 rounded-full w-fit">
+										<div className="bg-white/90 backdrop-blur-xs p-2 rounded-full w-fit">
 											{/* <Image
 										src={item.icon}
 										alt={item.title}

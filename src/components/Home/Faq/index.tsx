@@ -6,7 +6,8 @@ import React, { useState } from "react"; // Optional: install lucide-react icons
 const faqData = [
 	{
 		question: "Do you offer free signals?",
-		answer: `Yes, we do! You have access to our free-community signal once you join the official WhatsApp channel. All you need to do is to enroll with our Exness partner link or change your partner link to ours, if you already have an account: https://one.exnesstrack.org/a/7ait87r2p9`,
+		answer:
+			"Yes, we do! Join our free-community WhatsApp signal channel, and use our Exness partner link or change your partner link to ours, if you already have an account: https://one.exnesstrack.org/a/7ait87r2p9",
 	},
 	{
 		question: "Can people from abroad join Trader's circle institute?",
@@ -47,7 +48,7 @@ const Faq = () => {
 			<div className="container">
 				<div className=" mx-auto px-4">
 					<div className="text-center mb-10">
-						<p className="text-green-400 uppercase text-sm">Common questions</p>
+						<p className="text-primary uppercase text-sm">Common questions</p>
 						<h2 className="text-3xl md:text-4xl font-semibold mt-2">
 							You may want to know more
 						</h2>

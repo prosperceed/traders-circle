@@ -152,7 +152,7 @@ export const contactData: {
 	{
 		icon: <BiLogoInstagram className="w-6 h-6 text-red-400" />,
 		title: "Instagram",
-		link: "Enjoy the moments of short videos, and more.",
+		link: "https://www.instagram.com/",
 		space: "lg:mt-1",
 	},
 	{
@@ -201,21 +201,21 @@ export const testimonialsData: {
 	text: string;
 }[] = [
 	{
-		name: "John Doe",
+		name: "Imeh",
 		image: "/student.PNG",
-		text: "This platform has transformed my trading skills. The community is supportive and the resources",
+		text: "Trader's circle is beyond a forex class, it is a family every trader should be a part of. The knowledge I have gained here is priceless.",
 	},
 
 	{
-		name: "John Doe",
+		name: "Godswill",
 		image: "/student.PNG",
-		text: "This platform has transformed my trading skills. The community is supportive and the resources",
+		text: "My whole ideology about forex has changed since I joined Trader's Circle. The community is very supportive and the concepts are top-notch. Don't think twice, join now!",
 	},
 
 	{
-		name: "John Doe",
+		name: "Blessing Osas",
 		image: "/student.PNG",
-		text: "This platform has transformed my trading skills. The community is supportive and the resources",
+		text: "This platform has transformed my trading skills. The community is lively and suppportive",
 	},
 ];
 

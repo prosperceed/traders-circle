@@ -57,7 +57,17 @@ const Hero = () => {
 			className="relative py-24 pt-48 overflow-hidden z-1"
 			id="main-banner"
 		>
-			<div className="container">
+			<div className="w-full bg-cover bg-center bg-no-repeat -z-20 absolute top-0 left-0 h-full">
+				<Image
+					src="/hero.jpg"
+					alt="hero-overlay"
+					fill
+					className="w-full h-fit object-cover"
+				/>
+
+				<div className="absolute inset-0 bg-gradient-to-br from-black/97 via-black/70 to-background/20"></div>
+			</div>
+			<div className="container z-20">
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-10">
 					<motion.div {...leftAnimation} className="flex flex-col gap-10">
 						<div className="flex flex-col gap-4 text-center md:text-left">
