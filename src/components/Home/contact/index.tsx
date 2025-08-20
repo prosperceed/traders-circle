@@ -5,7 +5,7 @@ import Link from "next/link";
 const Contact = () => {
 	return (
 		<section className="pb-28 relative">
-			<div className="container px-4  z-2">
+			<div className="container px-4 z-2">
 				<div className="text-center">
 					<div className="flex flex-col gap-4">
 						{/* <p className="text-muted text-base relative">
@@ -22,7 +22,7 @@ const Contact = () => {
 								progress and get help on your questions
 							</p>
 						</div>
-						<div className="grid grid-cols-4 space-x-3">
+						<div className="w-[30rem] lg:w-full grid grid-cols-4 space-x-3">
 							{contactData.map((item, index) => (
 								<div
 									key={index}
@@ -31,7 +31,7 @@ const Contact = () => {
 									<Link
 										href={item.link}
 										target="_blank"
-										className="cursor-pointer"
+										className="cursor-pointer z-60"
 									>
 										<div className="bg-white/90 backdrop-blur-xs p-2 rounded-full w-fit">
 											{/* <Image

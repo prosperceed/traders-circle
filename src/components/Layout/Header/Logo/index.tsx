@@ -9,9 +9,8 @@ const Logo: React.FC = () => {
 				alt="logo"
 				width={80}
 				height={80}
-				// style={{ width: "auto", height: "auto" }}
 				quality={100}
-				className="w-18 h-15"
+				className="w-16 h-15"
 			/>
 		</Link>
 	);
