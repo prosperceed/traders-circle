@@ -22,7 +22,7 @@ const Contact = () => {
 								progress and get help on your questions
 							</p>
 						</div>
-						<div className="w-[30rem] lg:w-full grid grid-cols-4 space-x-3">
+						<div className="grid grid-cols-4 space-x-3">
 							{contactData.map((item, index) => (
 								<div
 									key={index}
