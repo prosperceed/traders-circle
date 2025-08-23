@@ -44,10 +44,10 @@ const Testimony = () => {
 									className="w-full max-w-md min-h-[250px] flex flex-col space-y-20 justify-between rounded-md bg-gradient-to-br from-white/80  to-secondary backdrop-blur-xl p-2"
 								>
 									<div className="flex relative">
-										<p className="w-[80%] mx-auto text-left p-3 text-[15px] lg:text-[13px] text-white">
+										<p className="w-[88%] lg:w-[80%] mx-auto text-left p-3 text-[13px] lg:text-[15px] text-white">
 											{item.text}
 										</p>
-										<div className="absolute top-0 left-3">
+										<div className="absolute top-0 -left-1 lg:left-3">
 											<BiSolidQuoteLeft className="text-4xl text-secondary/40" />
 										</div>
 									</div>
