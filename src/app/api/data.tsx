@@ -199,23 +199,62 @@ export const testimonialsData: {
 	name: string;
 	image: string;
 	text: string;
+	role: string;
 }[] = [
 	{
-		name: "Imeh",
-		image: "/student.PNG",
-		text: "Trader's circle is beyond a forex class, it is a family every trader should be a part of. The knowledge I have gained here is priceless.",
+		name: "Lord Imeh",
+		image: "/imeh.jpeg",
+		text: "Trader's circle is an institute that was meant to guide me through my forex journey but has become a big family to me connecting me with many like minded people. All thanks to sir Chidex 💎",
+		role: "Student",
 	},
 
 	{
 		name: "Godswill",
-		image: "/student.PNG",
+		image: "/godswill.jpeg",
 		text: "My whole ideology about forex has changed since I joined Trader's Circle. The community is very supportive and the concepts are top-notch. Don't think twice, join now!",
+		role: "Student",
 	},
 
 	{
-		name: "Blessing Osas",
+		name: "Prosper Successs",
 		image: "/student.PNG",
-		text: "This platform has transformed my trading skills. The community is lively and suppportive",
+		text: " The trading journey has not been easy with several uncertainties, until I found Trader's circle Institute that gave me a rich experience with the charts. Indeed, it's the rarest platform you would find.",
+		role: "Student",
+	},
+
+	{
+		name: "CRAN",
+		image: "/man.svg",
+		text: " Traders Circle institute has been a game-changer for my trading journey! The community is super supportive, and the teaching is top-notch. I've learned so much from the lessons, insights, and real-life examples shared. The admin and our great mentor CHIDEX are responsive, helpful, and always willing to lend a hand. What I love most is the collaborative environment - it's not just about trading; it's about growing together. If you're looking for a community that truly cares about your growth and success, look no further than Traders Circle!",
+		role: "Student",
+	},
+
+	{
+		name: "Chinedu",
+		image: "/man.svg",
+		text: "Honestly Trader's Circle is an eye opener. The teachings are very insightful. What even baffles me is how Boss Chidera after all the mentorship still holds class with us and ask about our progress so far. Ensuring we are still doing well and making it. And by the way, I really enjoyed Monday's lesson to be honest.",
+		role: "Student",
+	},
+
+	{
+		name: "Osariemen",
+		image: "/man.svg",
+		text: `My trading journey with Trader's Circle Institute has been a journey and a very beautiful one for real.... for someone who started afresh to mastering the charts in less than 6 months?? Credit to the tutors, they are always available for your questions, there's a group for general analysis, there's a group for free signals....all to aid your trading journey.... grateful to be a part of this community.`,
+		role: "Student",
+	},
+
+	{
+		name: "James Sunday",
+		image: "/man.svg",
+		text: "In the whole of my journey in this industry so far, one of the best decisions I have made is joining the traders circle. It rebranded everything even what I had known before to make things easier and most of all profitable.The platform or environment created is always good for learning cuz the tutors make sure that the train takes everybody along.They are able to respond to your questions and hear your contribution at the best possible time in the day, better than some customer care,And once you are in the circle you will get all the support you need to become a profitable trader.",
+		role: "Student",
+	},
+
+	{
+		name: "Isaac Evidence ",
+		image: "/man.svg",
+		text: "Before joining the July Advanced Class, I struggled a lot with understanding market structure and liquidity. I kept jumping from one strategy to another without real consistency. After taking the class and practicing what I learned, I can now confidently analyze the market on my own and take quality trades. My trading journey has completely changed for the better. I know there’s still more to learn, but I’m truly grateful I clicked on Trader’s Circle’s ad on a WhatsApp TV — because where I am today in trading is largely thanks to Trader’s Circle. 🙌",
+		role: "Student",
 	},
 ];
 

@@ -31,18 +31,9 @@ const Contact = () => {
 									<Link
 										href={item.link}
 										target="_blank"
-										className="cursor-pointer z-60"
+										className="cursor-pointer z-60 bg-white/90 backdrop-blur-xs p-2 rounded-full w-fit"
 									>
-										<div className="bg-white/90 backdrop-blur-xs p-2 rounded-full w-fit">
-											{/* <Image
-										src={item.icon}
-										alt={item.title}
-										width={44}
-										height={44}
-									/> */}
-
-											{item.icon}
-										</div>
+										{item.icon}
 									</Link>
 									{/* <h4 className={`text-white text-[15px] mb-2 ${item.space}`}>
 										{item.title}

@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { testimonialsData } from "@/app/api/data";
 import Image from "next/image";
+import { BiSolidQuoteLeft } from "react-icons/bi";
 import { Icon } from "@iconify/react";
 
 const Testimony = () => {
@@ -22,7 +23,7 @@ const Testimony = () => {
 
 	return (
 		<section className="py-20" id="testimony">
-			<div className="container px-4 w-full lg:w-[97%] mx-auto">
+			<div className="container px-4 w-[96%]  mx-auto">
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
 					<div>
 						<h2 className="text-white sm:text-40 text-30 font-medium mb-5">
@@ -35,31 +36,39 @@ const Testimony = () => {
 						</p>
 					</div>
 
-					<div className="w-full h-full">
+					<div className="">
 						<Slider {...settings}>
 							{testimonialsData.map((item, index) => (
 								<div
 									key={index}
-									className="rounded-md bg-gradient-to-br from-white/80  to-secondary backdrop-blur-xl p-5"
+									className="w-full max-w-md min-h-[250px] flex flex-col space-y-20 justify-between rounded-md bg-gradient-to-br from-white/80  to-secondary backdrop-blur-xl p-2"
 								>
-									<div className="flex flex-col gap-y-5">
-										<div className="flex items-center gap-4">
-											<div className="bg-secondary/10 p-2 rounded-full">
-												<Image
-													src={item.image}
-													alt={item.name}
-													width={80}
-													height={80}
-													className="rounded-full w-20 h-20 object-cover"
-												/>
-											</div>
-											<h2 className="text-lg  text-white/87 font-bold">
-												{item.name}
-											</h2>
-										</div>
-										<p className="w-[86%] text-left p-3 text-base text-white">
+									<div className="flex relative">
+										<p className="w-[80%] mx-auto text-left p-3 text-[15px] lg:text-[13px] text-white">
 											{item.text}
 										</p>
+										<div className="absolute top-0 left-3">
+											<BiSolidQuoteLeft className="text-4xl text-secondary/40" />
+										</div>
+									</div>
+									<div className="flex space-x-2 items-center justify-start">
+										<div className="bg-secondary/10 p-1 rounded-full">
+											<Image
+												src={item.image}
+												alt={item.name}
+												width={60}
+												height={60}
+												className="rounded-full w-16 h-16 object-cover"
+											/>
+										</div>
+										<div className="flex flex-col items-center space-x-2">
+											<h2 className="text-[16px] font-bold text-white/87">
+												{item.name}
+											</h2>
+											<div className="">
+												<p className="text-sm text-primary">{item.role}</p>
+											</div>
+										</div>
 									</div>
 								</div>
 							))}
