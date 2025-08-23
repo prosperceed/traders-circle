@@ -13,11 +13,11 @@ const Testimony = () => {
 		dots: true,
 		arrows: false,
 		infinite: true,
-		speed: 800,
-		slidesToShow: 1, // only 1 slide at a time
+		speed: 2000,
+		slidesToShow: 1,
 		slidesToScroll: 1,
 		autoplay: true,
-		autoplaySpeed: 4000,
+		autoplaySpeed: 9000,
 		centerMode: false,
 	};
 
@@ -41,7 +41,7 @@ const Testimony = () => {
 							{testimonialsData.map((item, index) => (
 								<div
 									key={index}
-									className="w-full max-w-md min-h-[250px] flex flex-col space-y-20 justify-between rounded-md bg-gradient-to-br from-white/80  to-secondary backdrop-blur-xl p-2"
+									className="w-full max-w-md min-h-[200px] flex flex-col space-y-20 justify-between rounded-md bg-gradient-to-br from-white/80  to-secondary backdrop-blur-xl p-2"
 								>
 									<div className="flex relative">
 										<p className="w-[88%] lg:w-[80%] mx-auto text-left p-3 text-[13px] lg:text-[15px] text-white">

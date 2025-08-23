@@ -133,31 +133,26 @@ export const upgradeData: { title: string }[] = [
 
 export const contactData: {
 	icon: ReactNode;
-	title: string;
 	link: string;
 	space: string;
 }[] = [
 	{
 		icon: <BiLogoWhatsapp className="w-6 h-6 text-green-400" />,
-		title: "WhatsApp",
 		link: "https://whatsapp.com/channel/0029Vb3odBVLI8YPRIFWCG0o",
 		space: "lg:mt-1",
 	},
 	{
 		icon: <BiLogoFacebook className="w-6 h-6 text-blue-400" />,
-		title: "Facebook",
 		link: "https://www.facebook.com/share/19Px8B2TzE/",
 		space: "lg:mt-1",
 	},
 	{
 		icon: <BiLogoInstagram className="w-6 h-6 text-red-400" />,
-		title: "Instagram",
 		link: "https://www.instagram.com/",
 		space: "lg:mt-1",
 	},
 	{
 		icon: <BiLogoTiktok className="w-6 h-6 text-cyan-400" />,
-		title: "TikTok",
 		link: "https://vm.tiktok.com/ZSAdTX4Nk/",
 		space: "lg:mt-1",
 	},

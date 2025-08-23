@@ -5,46 +5,45 @@ import Link from "next/link";
 const Contact = () => {
 	return (
 		<section className="pb-28 relative">
-			<div className="container px-4 z-2">
+			<div className="container px-4 relative z-10">
 				<div className="text-center">
 					<div className="flex flex-col gap-4">
-						{/* <p className="text-muted text-base relative">
-							Always By <span className="text-primary">your side</span>
-						</p> */}
 						<h2 className="text-white sm:text-40 text-30 font-medium">
 							Stay connected with us
 						</h2>
 					</div>
-					<div className="relative w-[80%] lg:w-[40rem] flex flex-col space-y-8 items-center h-fit mx-auto mt-16 border border-border/20  py-6 gap-8 px-10 rounded-3xl bg-white/2 shadow-md drop-shadow-2xl backdrop-blur-xl">
+
+					<div
+						className="relative w-[80%] lg:w-[40rem] flex flex-col space-y-8 items-center h-fit mx-auto mt-16 
+                 border border-border/20 py-6 gap-8 px-10 rounded-3xl 
+                 bg-white/2 shadow-md drop-shadow-2xl backdrop-blur-xl z-20"
+					>
 						<div className="px-2 flex justify-start w-[96%] lg:w-[26rem]">
-							<p className="text-muted text-sm md:text-[19px] text-left ">
+							<p className="text-muted text-sm md:text-[19px] text-left">
 								Reach us on our social media platforms to stay updated on our
-								progress and get help on your questions
+								progress, and get help on your questions from our admins.
 							</p>
 						</div>
-						<div className="grid grid-cols-4 space-x-3">
+
+						<div className="grid grid-cols-4 gap-4">
 							{contactData.map((item, index) => (
 								<div
 									key={index}
-									className="text-center flex items-center justify-end flex-col"
+									className="text-center flex flex-col items-center justify-center"
 								>
 									<Link
 										href={item.link}
 										target="_blank"
-										className="cursor-pointer z-60 bg-white/90 backdrop-blur-xs p-2 rounded-full w-fit"
+										rel="noopener noreferrer"
+										className="cursor-pointer bg-white/90 p-3 rounded-full w-fit z-30 relative"
 									>
 										{item.icon}
 									</Link>
-									{/* <h4 className={`text-white text-[15px] mb-2 ${item.space}`}>
-										{item.title}
-									</h4>
-									<div className="text-muted/60">
-										<p className="text-sm">{item.text}</p>
-									</div> */}
 								</div>
 							))}
 						</div>
-						<div className="absolute -top-10 -right-6 -z-20">
+
+						<div className="absolute -top-10 -right-6 -z-10">
 							<Image
 								src="/contact-msg.svg"
 								alt="Chat Img"
@@ -56,7 +55,8 @@ const Contact = () => {
 					</div>
 				</div>
 			</div>
-			<div className="bg-linear-to-br from-tealGreen to-cyan-400 sm:w-50 w-96 z-0 sm:h-50 h-96 rounded-full sm:-bottom-80 bottom-0 blur-400 absolute sm:-left-48 opacity-60"></div>
+
+			<div className="bg-linear-to-br from-tealGreen to-cyan-400 sm:w-50 w-96 sm:h-50 h-96 rounded-full sm:-bottom-80 bottom-0 blur-400 absolute sm:-left-48 opacity-60 z-0"></div>
 		</section>
 	);
 };
