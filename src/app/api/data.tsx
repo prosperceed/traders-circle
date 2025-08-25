@@ -204,9 +204,9 @@ export const testimonialsData: {
 	},
 
 	{
-		name: "Godswill",
+		name: "Bassey Godswill",
 		image: "/godswill.jpeg",
-		text: "My whole ideology about forex has changed since I joined Trader's Circle. The community is very supportive and the concepts are top-notch. Don't think twice, join now!",
+		text: "Traders Circle was indeed the game Changer for me, from knowing nothing about Forex to becoming a Profitable trader, all I knew about forex before joining Traders circle was Chart and Candle Stick 😂, and now I'm among the top student Traders Circle have producedWe move from been just a community of strangers with the aim of financial freedom to becoming a Family with everyone's interest at heart, Our mentor Chidera made it happened, he did not only share in our Joy but in our loses as well, Traders circle indeed made me 🙏🙏",
 		role: "Student",
 	},
 
