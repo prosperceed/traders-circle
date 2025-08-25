@@ -197,7 +197,7 @@ export const testimonialsData: {
 	role: string;
 }[] = [
 	{
-		name: "Lord Imeh",
+		name: "Imeh Eddet",
 		image: "/imeh.jpeg",
 		text: "Trader's circle is an institute that was meant to guide me through my forex journey but has become a big family to me connecting me with many like minded people. All thanks to sir Chidex 💎",
 		role: "Student",

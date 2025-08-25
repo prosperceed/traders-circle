@@ -76,7 +76,7 @@ const Faq = () => {
 
 								<div
 									className={`mt-2 text-gray-400 overflow-hidden transition-all duration-500 ease-in-out ${
-										openIndex === index ? "max-h-40 visible" : "max-h-0 hidden"
+										openIndex === index ? "max-h-58 visible" : "max-h-0 hidden"
 									}`}
 								>
 									<p className="py-2">{item.answer}</p>
