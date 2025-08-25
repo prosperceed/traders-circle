@@ -211,7 +211,7 @@ export const testimonialsData: {
 	},
 
 	{
-		name: "Prosper Successs",
+		name: "Prosper Success",
 		image: "/student.PNG",
 		text: " The trading journey has not been easy with several uncertainties, until I found Trader's circle Institute that gave me a rich experience with the charts. Indeed, it's the rarest platform you would find.",
 		role: "Student",

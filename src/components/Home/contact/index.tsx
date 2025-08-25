@@ -25,7 +25,7 @@ const Contact = () => {
 							</p>
 						</div>
 
-						<div className="grid grid-cols-4 gap-5">
+						<div className="grid grid-cols-4 gap-7 lg:gap-5">
 							{contactData.map((item, index) => (
 								<div
 									key={index}

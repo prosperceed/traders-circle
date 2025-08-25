@@ -41,7 +41,7 @@ const Testimony = () => {
 							{testimonialsData.map((item, index) => (
 								<div
 									key={index}
-									className="w-full max-w-md min-h-[200px] flex flex-col space-y-20 justify-between rounded-md bg-gradient-to-br from-white/80  to-secondary backdrop-blur-xl p-2"
+									className="w-full max-w-md min-h-[200px] flex flex-col space-y-20 justify-between rounded-md bg-gradient-to-br from-secondary to-white/40 backdrop-blur-xl p-2"
 								>
 									<div className="flex relative">
 										<p className="w-[88%] lg:w-[80%] mx-auto text-left p-3 text-[13px] lg:text-[15px] text-white">
