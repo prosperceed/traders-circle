@@ -2,7 +2,10 @@ import React from "react";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import moment from "moment";
-import { PageProps } from "@/types/news";
+
+type PageProps = {
+	params: { slug: string };
+};
 
 async function getNews(link: string) {
 	const res = await fetch(
