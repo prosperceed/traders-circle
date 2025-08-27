@@ -9,6 +9,6 @@ export type NewsData = {
 	author: string;
 };
 
-export type NewsProps = {
+export type PageProps = {
 	params: { slug: string };
 };
