@@ -17,8 +17,12 @@ async function getNews(link: string) {
 	return news[0];
 }
 
-export default async function NewsDetail({ params }: NewsProps) {
-	const { slug } = params;
+export default async function NewsDetail({
+	params,
+}: {
+	params: Promise<{ slug: string }>;
+}) {
+	const { slug } = await params;
 	const decodedLink = decodeURIComponent(slug);
 	const news = await getNews(decodedLink);
 
@@ -31,8 +35,8 @@ export default async function NewsDetail({ params }: NewsProps) {
 				{moment(news.date).format("MMMM Do YYYY, h:mm a")}
 			</p>
 			<Image
-				width={400}
-				height={600}
+				width={100}
+				height={200}
 				src={news.image}
 				alt={news.title}
 				className="w-full rounded-lg"
