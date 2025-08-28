@@ -31,7 +31,7 @@ export default function NewsList() {
 				</div>
 
 				{loading ? (
-					<p>Loading...</p>
+					<p className="text-center text-xl">Loading...</p>
 				) : (
 					news.map((item, index) => (
 						<div
@@ -56,7 +56,7 @@ export default function NewsList() {
 								<h2 className="font-semibold text-lg">{item.title}</h2>
 
 								<Link
-									href={`/news/ ${encodeURIComponent(item.link)}`}
+									href={`/news/${encodeURIComponent(item.link)}`}
 									target="_blank"
 									rel="noopener noreferrer"
 									className="flex w-fit rounded-md p-3 border border-primary text-primary bg-transparent hover:bg-primary/50 hover:text-white/80 text-sm mt-2"
