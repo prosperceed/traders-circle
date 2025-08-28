@@ -2,10 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import moment from "moment";
-
-type PageProps = {
-	params: { slug: string };
-};
+import { NewsProps } from "@/types/news";
 
 async function getNews(link: string) {
 	const res = await fetch(
@@ -20,7 +17,7 @@ async function getNews(link: string) {
 	return news[0];
 }
 
-export default async function NewsDetail({ params }: PageProps) {
+export default async function NewsDetail({ params }: NewsProps) {
 	const { slug } = params;
 	const decodedLink = decodeURIComponent(slug);
 	const news = await getNews(decodedLink);
