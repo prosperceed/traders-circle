@@ -10,7 +10,7 @@ const MobileHeaderLink: React.FC<{ item: HeaderItem }> = ({ item }) => {
 	};
 
 	return (
-		<div className="relative w-full bg-black/80">
+		<div className="relative w-full">
 			<Link
 				href={item.href}
 				onClick={item.submenu ? handleToggle : undefined}
