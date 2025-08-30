@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { serviceData } from "@/app/api/data";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Services = () => {
 	return (
@@ -37,10 +38,13 @@ const Services = () => {
 								You can become a forex student today
 							</h2>
 						</div>
-						{/* <p className="text-muted/60 text-18">
-							Coinbase has a variety of features that make it the best place to
-							start trading.
-						</p> */}
+						<Link
+							href="https://wa.me/qr/VLVIBLWV3XAZE1"
+							target="_blank"
+							className="py-3 px-4 text-muted hover:text-muted border rounded-md border-primary/80 hover:bg-primary/60"
+						>
+							Enroll now
+						</Link>
 
 						<table className="w-full sm:w-[80%] mt-10">
 							<tbody>
