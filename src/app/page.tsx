@@ -9,7 +9,7 @@ import Testimony from "@/components/Home/testimony";
 import Achievement from "@/components/Home/Achievement";
 import Uniqueness from "@/components/Home/uniqueness";
 import { Metadata } from "next";
-import BrandLogo from "@/components/Home/BrandLogo";
+import TradingViewWidget from "@/components/Home/currencies";
 import Faq from "@/components/Home/Faq";
 export const metadata: Metadata = {
 	title: "Trader's Circle Institute",
@@ -27,6 +27,7 @@ export default function Home() {
 			<Testimony />
 			<Contact />
 			<Faq />
+			<TradingViewWidget />
 		</main>
 	);
 }
