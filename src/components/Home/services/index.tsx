@@ -35,7 +35,7 @@ const Services = () => {
 								<span className="text-cyan-400/60">Institute</span>
 							</p>
 							<h2 className="text-white sm:text-40 text-30 mb-4 font-medium">
-								You can become a forex student today
+								You can become our forex student today
 							</h2>
 						</div>
 						<Link
