@@ -139,7 +139,7 @@ function TradingViewWidget() {
           "showSymbolLogo": true,
           "showChart": true
         }`;
-		container.current.appendChild(script);
+		container.current?.appendChild(script);
 	}, []);
 
 	return (
